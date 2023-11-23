@@ -4,4 +4,5 @@
 FROM busybox
 RUN cd ~
 #RUN wget https://github.com/goharbor/harbor/releases/download/v2.6.4/harbor-offline-installer-v2.6.4.tgz
-RUN wget https://artifacts.elastic.co/downloads/logstash/logstash-7.17.5-linux-x86_64.tar.gz
+#RUN wget https://artifacts.elastic.co/downloads/logstash/logstash-7.17.5-linux-x86_64.tar.gz
+RUN wget https://artifacts.elastic.co/downloads/kibana/kibana-7.17.5-x86_64.rpm
