@@ -11,4 +11,5 @@ FROM busybox:1.37.0
 #RUN wget https://github.com/goharbor/harbor/releases/download/v2.6.4/harbor-offline-installer-v2.6.4.tgz
 #RUN wget https://artifacts.elastic.co/downloads/logstash/logstash-7.17.5-linux-x86_64.tar.gz
 #RUN wget https://artifacts.elastic.co/downloads/kibana/kibana-7.17.5-x86_64.rpm
-RUN wget https://developer.download.nvidia.com/compute/cuda/12.8.0/local_installers/cuda_12.8.0_570.86.10_linux.run
+#RUN wget https://developer.download.nvidia.com/compute/cuda/12.8.0/local_installers/cuda_12.8.0_570.86.10_linux.run
+RUN wget  https://developer.download.nvidia.com/compute/cudnn/9.11.0/local_installers/cudnn-local-repo-ubuntu2204-9.11.0_1.0-1_amd64.deb
